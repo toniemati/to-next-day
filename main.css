@@ -1,0 +1,52 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #2d2d2d;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2rem;
+    color: white;
+}
+
+.container{
+    width: 85%;
+    text-align: center;
+}
+
+.one{
+    padding: 1rem;
+}
+
+.two{
+    padding: 1rem;
+}
+
+p{
+    font-family: 'Orbitron', sans-serif;
+    font-size: 1.5rem;
+}
+
+.btn{
+    position: absolute;
+    right: 5%;
+    top: 5%;
+    background: none;;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    border: none;
+    padding: 0.5rem;
+    box-shadow: 1px 1px 5px 1px white;
+    border-radius: 5px;
+    outline: none;
+}
+
+.btn:hover{
+    cursor: pointer;
+}
